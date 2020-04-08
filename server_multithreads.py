@@ -14,8 +14,6 @@ def servidor(conexao, endereco):
     conexao.close()
     print('Esperando novas conexões...')
 
-
-
 def executa():
     minhaPort = 9090
     sockobj = socket(AF_INET, SOCK_STREAM)
